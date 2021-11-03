@@ -1,74 +1,70 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="card.css">
-    <title>Amazon.com</title>
-    <style>
-        .flex div{
-            border: 2px solid black;
-            margin: 2% auto;
-            padding: 2% 2%;
-            font-size: 12px;
-        }
-        .flex {
-            height: 300px;
-            display: flex;
-            flex-direction: column;
-            align-content: flex-start;
-        }
+.cardbody{
+    border: 3px solid black;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    width: 28%;
+    border-radius: 5%;
+    text-align: center;
+}
+.cardbody img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+s{
+    color: red;
 
-    </style>
-    
-</head>
-<body>
-    <div class="card">
+}
+h3{
+    color: blue
 
-        <div class="cardbody">
-            <img src="./images/download (1).jpg"  alt="image">
-            <hr>
-            <u><b> Description</u></b>
-            <h3><b>Iphone 12Pro</b></h3><br/>
-            M.R.P: <s>80,000</s>
-            <p>Offer price : 50,000</p>
-            <button>Buynow</button>
-            <button>Add to cart</button>
-         </div>
-            <div class="cardbody">
-                <img src="./images/vivo-s1-pro.jpeg" height="244" width="244" alt="image">
-                <hr>
-                <u>Product Description</u>
-                <h3>Vivo S1Pro</h3><br/>
-                M.R.P: <s>20,000</s>
-                <p>Offer price : 19,000</p>
-                <button>Buynow</button>
-                <button>Add to cart</button>
-               
-                
-            </div>
-             <div class="cardbody">
-                <img src="./images/download.jpg" alt="">
-                <hr>
-                <u>Product Description</u>
-                <h3>Realme 6i</h3><br/>
-                M.R.P: <s>19,999</s>
-                <p>Offer price : 12,000</p>
-                <button>Buynow</button>
-                <button>Add to cart</button>
-             </div>
-             <div class="cardbody">
-                <img src="./images/download (2).jpg" alt="">
-                <hr>
-                <u>Product Description</u>
-                <h3>Iphone 5s</h3><br/>
-                M.R.P: <s>79,999</s>
-                <p>Offer price : 49,999/-</p>
-                <button>Buynow</button>
-                <button>Add to cart</button>
-             </div>
-                
-    </div>
+}
+button{
+    padding: 2%;
+    background-color: blue;
+    color: white;
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardbody{
+        border: 3px solid black;
+        padding: 1%;
+        margin: 1%;
+        font-size: 20px;
+        width: 90%;
+        border-radius: 5%;
+        text-align: center;
+    }
+    .cardbody img{
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    s{
+        color: red;
     
-</body>
-</html>
+    }
+    h3{
+        color: blue
+    
+    }
+    button{
+        padding: 2%;
+        background-color: blue;
+        color: white;
+    
+    }
+
+}

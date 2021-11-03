@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> : Madhunadh Gurram : </title>
+    <style>
+         h1{
+            background-color:yellow;
+         }
+         h2,p{
+                color:yellow;
+             background-color: green;
+         }
+
+         .vicky{
+             font-size: 40px;
+             color:red;
+             
+             text-shadow: 4px 8px 6px black;
+         }
+         #span2{
+             font-size: 30px;
+             color: royalblue;
+         }
+         *{
+             background-color: salmon;
+         }
+    </style>
+</head>
+<body>
+    <marquee behavior="" direction="">
+        <h1 style="color:red;">Madhunadh Gurram </h1>
+    </marquee>
+        
+        <h3>Aditya college</h3>
+        <h2>Apssdc</h2>
+        <p>Madhu</p>
+    
+        <span class="vicky"><b>Hello everyone</b> </span>
+        <span id="span2">Welcome</span>
+        <div class="vicky">Div Element</div>
+
+        <img src="./Remini20211013132014999.jpg" height="400" width="300" alt="">
+        <video src="./mov_bbb.mp4" controls></video>
+    
+</body>
+</html>
